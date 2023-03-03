@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #8002c3;
+    color: #ffffff;
+    overflow: hidden;
+    font-size: 2rem;
+}
+
+.btn{
+    font-family: inherit;
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+.btn:hover{
+    background-color: teal;
+    color: #ffffff;
+}
+
+.gameScreen{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.gameHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.gameTitle{
+    text-align: center;
+    font-size: 3.5rem;
+
+}
+
+.correctAns{
+    background-color: teal;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10px;
+    align-self: center;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.guessScreen{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkScreen{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+
+}
+
+.inputNumber{
+    font-size: 3rem;
+    max-width: 15rem;
+    color: #222;
+    font-weight: bold;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.check{
+    width: 10rem;
+}
+
+.scoreScreen{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-weight: bold;
+}
